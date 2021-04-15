@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# frincometax
+
+<!-- badges: start -->
+```{r, echo = FALSE}
+version <- as.vector(read.dcf('DESCRIPTION')[, 'Version'])
+version <- gsub('-', '.', version)
+```
+[![version](https://img.shields.io/badge/version-`r version`-orange.svg)](commits/master)
+[![lastcommit](https://img.shields.io/github/last-commit/abichat/frincometax.svg)](https://github.com/abichat/frincometax/commits/master)
+<!-- badges: end -->
+
+**frincometax** provides French income tax details from 2006 to 2020.
+
+## Installation
+
+You can install **frincometax** from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("abichat/frincometax")
+```
+## Data
+
+```{r example}
+library(frincometax)
+rates
+```

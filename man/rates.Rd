@@ -10,8 +10,8 @@ A data frame with 6 variables:
 \item{year}{year of the income}
 \item{bracket}{bracket number}
 \item{min, max}{range of the bracket}
-\item{rate}{rate of the bracket}
 \item{currency}{always 'euros'}
+\item{rate}{rate of the bracket}
 }
 }
 \source{

@@ -9,6 +9,8 @@ Authors@R:
            comment = c(ORCID = "0000-0001-6599-7081"))
 Description: Provides data about French income tax.
 License: MIT + file LICENSE
+URL: https://github.com/abichat/frincometax
+BugReports: https://github.com/abichat/frincometax/issues
 Depends: 
     R (>= 2.10)
 Encoding: UTF-8
